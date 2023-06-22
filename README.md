@@ -3,7 +3,7 @@
 # Segundo parcial SPD: Sistema de incendio con Arduino 🔥
 ## Alumno: Federico Corbalán 1-J
 
-### El objetivo de este proyecto es diseñar un sistema de incendio utilizando Arduino que puedadetectar cambios de temperatura y activar un servo motor en caso de detectar un incendio.Además, se mostrará la temperatura actual y la estación del año en un display LCD.
+### El objetivo de este proyecto es diseñar un sistema de incendio utilizando Arduino que pueda detectar cambios de temperatura y activar un servo motor en caso de detectar un incendio. Además, se mostrará la temperatura actual y la estación del año en un display LCD.
 
 ## Componentes utilizados 🤖
 - Arduino UNO
@@ -17,7 +17,7 @@
 
 ## Funcionalidad 🤖
 El control remoto maneja el sistema, el sistema por defecto viene apagado, por lo tanto, el led rojo va a estar encendido, pero si se presiona el boton 1 del control remoto, se va a prender el led verde y se va a encender el sistema, que dependiendo la temperatura del ambiente, se va a mostrar en un Display LCD 16x2, tanto la temperatura como la estacion correspondiente, pero si se presiona el boton 2, el sistema se apagará.
-En el caso de que la temperatura sea mayor a 60 grados, se accionara el servomotor a modo de respuesta.
+En el caso de que la temperatura sea mayor a 60 grados, se imprimirá en el Display LCD qur hay un incendio y se accionara el servomotor a modo de respuesta.
 
 ## Esquema 🤖
 ![image](https://github.com/fedecorbalan/Parcial-2-SPD/assets/123754871/dc4a76a6-3e35-4f71-be45-03b05453c4ec)
